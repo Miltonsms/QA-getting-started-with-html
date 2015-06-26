@@ -1,0 +1,73 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix {
+  overflow: auto;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.header {
+	max-width: 100%;
+	display: flex;
+}
+.right {
+	padding-top: 20px;
+	text-align: right;
+}
+#name, #job-title {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	color: #707070;
+}
+#name {
+	font-size: 5.0vw;
+	font-weight: 100;
+}
+#job-title {
+	font-size: 2.0vw;
+	font-weight: 200;
+}
+.line {
+	max-width: 100%;
+}
+hr {
+	width: 100%;
+	border: 0;
+	height: 0;
+	border-top: 3px solid #bcbbbb;
+	border-bottom: 1px solid #bcbbbb;
+}
+#my-background {
+	color: #c8c8c8;
+	text-align: left;
+	font-size: 3.0vw;
+	font-weight: 400;
+	text-indent: 10px;
+}
+.background-info, .link-row {
+	text-align: center;
+	color: #787878;
+}
+.background-info {
+	font-size: 3.0vw;
+	margin-bottom: 0;
+}
+.link {
+	font-size: 1.2vw;
+	margin-top: 0;
+	font-weight: 200;
+}
+@media screen and (min-width: 800px){
+	.container {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
